@@ -1,13 +1,13 @@
 'use client';
 import { DataTable } from '@/components/ui/table/data-table';
 import { columns } from './columns';
-import { Employee } from '@/constants/data';
+import { User } from '@/constants/data';
 
 export default function UserTable({
   data,
   totalData,
 }: {
-  data: Employee[];
+  data: User[];
   totalData: number;
 }) {
   return (
