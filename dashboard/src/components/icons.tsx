@@ -1,8 +1,17 @@
-import { LucideIcon, LucideProps } from 'lucide-react';
+import {
+  Command,
+  LayoutDashboardIcon,
+  LucideIcon,
+  LucideProps,
+  User,
+} from 'lucide-react';
 
 export type Icon = LucideIcon;
 
 export const Icons = {
+  dashboard: LayoutDashboardIcon,
+  user: User,
+  logo: Command,
   google: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden='true'
